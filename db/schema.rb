@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_09_004747) do
+ActiveRecord::Schema.define(version: 2019_01_09_044305) do
+
+  create_table "action_mailbox_inbound_emails", force: :cascade do |t|
+    t.integer "status", default: 0, null: false
+    t.string "message_id"
+    t.datetime "created_at", precision: 6
+    t.datetime "updated_at", precision: 6
+  end
 
   create_table "action_text_rich_texts", force: :cascade do |t|
     t.string "name", null: false
