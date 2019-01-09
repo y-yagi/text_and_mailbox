@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'webpacker', '~> 4.0.0.rc.2'
+gem 'image_processing'
 
 gem 'turbolinks', '~> 5'
 
