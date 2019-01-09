@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.0'
 
-gem 'rails', path: "/home/yaginuma/program/rails/master_y_yagi/rails"
+gem 'rails', github: "rails/rails"
 
 gem 'sqlite3'
 gem 'puma', '~> 3.11'

@@ -1,5 +1,6 @@
-PATH
-  remote: /home/yaginuma/program/rails/master_y_yagi/rails
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 2787474ae30c753afadb27949d9a12daf7f89087
   specs:
     actioncable (6.0.0.alpha)
       actionpack (= 6.0.0.alpha)
