@@ -6,7 +6,8 @@
     "actioncable": ">=5.2.1",
     "activestorage": ">=5.2.1",
     "rails-ujs": ">=5.2.1",
-    "turbolinks": "5.1.1"
+    "turbolinks": "5.1.1",
+    "trix": ">=1.0.0"
   },
   "version": "0.1.0",
   "devDependencies": {
